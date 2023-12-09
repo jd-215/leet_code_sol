@@ -22,6 +22,8 @@ function productExceptSelf(nums: number[]): number[] {
             post = post* nums[j]
     }
     
-    return ans
+    console.log(ans)
 
 }
+
+productExceptSelf([1,2,3,4])
